@@ -12,11 +12,50 @@
       
       
       
+        <tags>
+            
+            <tag> -Machine Learning -CSCI567 </tag>
+            
+        </tags>
+      
     </entry>
     
     
   
   
+    
+    
+    <entry>
+      <title>About</title>
+      <link href="About/index.html"/>
+      <url>About/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Videos</title>
+      <link href="Videos/index.html"/>
+      <url>Videos/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Photos</title>
+      <link href="Photos/index.html"/>
+      <url>Photos/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">2014-2019</div>  <p>Undergraduate Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">2019-2020</div>  <p>Graduate Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">On the Way</div>  <p>Travel Life</p>  <a href='/'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
     
   
 </search>
