@@ -14,7 +14,30 @@
       
         <tags>
             
-            <tag> -Machine Learning -CSCI567 </tag>
+            <tag> Machine Learning </tag>
+            
+            <tag> CSCI567 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Everything About Dealing With Python TXT</title>
+      <link href="2020/09/15/Everything-About-Dealing-With-Python-TXT/"/>
+      <url>2020/09/15/Everything-About-Dealing-With-Python-TXT/</url>
+      
+        <content type="html"><![CDATA[<p>This article would introduce methods of reading and writing text files.</p><h2 id="Read-txt"><a href="#Read-txt" class="headerlink" title="Read txt:"></a>Read txt:</h2><h3 id="Read-a-text-line-by-line"><a href="#Read-a-text-line-by-line" class="headerlink" title="Read a text line by line:"></a>Read a text line by line:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">f &#x3D; open(&quot;.&#x2F;test.txt&quot;) #read a txt file</span><br><span class="line">line &#x3D; f.readline() #read file as line</span><br><span class="line">while line:</span><br><span class="line">    print line</span><br><span class="line">    line &#x3D; f.readline()</span><br><span class="line">f.close() #close the file</span><br><span class="line"></span><br><span class="line">#Or use another method</span><br><span class="line">for line3 in lines: </span><br><span class="line">    print line3</span><br><span class="line">    </span><br><span class="line">#close the file    </span><br><span class="line">f.close() </span><br></pre></td></tr></table></figure><h3 id="Read-a-certain-column-of-a-text"><a href="#Read-a-certain-column-of-a-text" class="headerlink" title="Read a certain column of a text:"></a>Read a certain column of a text:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import codecs</span><br><span class="line">f &#x3D; codecs.open(&#39;.&#x2F;test.txt&#39;, mode&#x3D;&#39;r&#39;, encoding&#x3D;&#39;utf-8&#39;) </span><br><span class="line">line &#x3D; f.readline()</span><br><span class="line">head &#x3D; []</span><br><span class="line">while line:</span><br><span class="line">    data &#x3D; line.split()</span><br><span class="line">    i &#x3D; data[0:1]</span><br><span class="line">    heads.append(i)</span><br><span class="line">    print(i)</span><br><span class="line">    line &#x3D; f.readline()</span><br><span class="line">f.close()</span><br></pre></td></tr></table></figure><h3 id="Write-a-text"><a href="#Write-a-text" class="headerlink" title="Write a text"></a>Write a text</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">with open(&#39;C:&#x2F;Users&#x2F;lai&#x2F;Desktop&#x2F;1.txt&#39;,&#39;w&#39;) as w:</span><br><span class="line">for l in lines:</span><br><span class="line">   if &#39;123&#39; not in l:</span><br><span class="line">      w.write(l) </span><br></pre></td></tr></table></figure><h3 id="Delet-a-line-of-text"><a href="#Delet-a-line-of-text" class="headerlink" title="Delet a line of text"></a>Delet a line of text</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> txt </tag>
             
         </tags>
       
@@ -52,7 +75,7 @@
       <link href="Photos/index.html"/>
       <url>Photos/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">2014-2019</div>  <p>Undergraduate Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">2019-2020</div>  <p>Graduate Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">On the Way</div>  <p>Travel Life</p>  <a href='/'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">2014-2019</div>  <p>Undergraduate Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">2019-2020</div>  <p>Graduate Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">On the Way</div>  <p>Travel Life</p>  <a href='/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='/'>  <figcaption>  <div class="gallery-group-name">My work</div>  <p>Painting and Handicrafts</p>  <a href='/'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
